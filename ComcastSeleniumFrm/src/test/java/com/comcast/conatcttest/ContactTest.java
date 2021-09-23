@@ -19,4 +19,10 @@ public class ContactTest {
 	public void deleteCoantctTest() {
 		System.out.println("execute deleteCoantctTest");
 	}
+	
+	@Test(groups = "RegressionTest")
+	public void searchCoantctTest() {
+		System.out.println("execute searchCoantctTest");
+	}
 }
+
