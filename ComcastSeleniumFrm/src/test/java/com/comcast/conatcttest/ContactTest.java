@@ -7,7 +7,9 @@ public class ContactTest {
 	@Test(groups = "SmokeTest")
 	public void createConatctTest() {
 		String BROWSER = System.getProperty("browser");
+		String URL = System.getProperty("url");
 		System.out.println("=============>"+BROWSER);
+		System.out.println("=============>"+URL);
 		System.out.println("execute createConatctTest");
 	}
 	
