@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="68" started-at="2021-09-22T10:11:02Z" finished-at="2021-09-22T10:11:02Z">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="ContactTest.createConatctTest()[pri:0, instance:com.comcast.conatcttest.ContactTest@57829d67]" name="createConatctTest" class="com.comcast.conatcttest.ContactTest"/>
+        <method signature="OrgTest.createOrgTest()[pri:0, instance:com.comcast.orgtest.copy.OrgTest@19dfb72a]" name="createOrgTest" class="com.comcast.orgtest.copy.OrgTest"/>
+      </group> <!-- SmokeTest -->
+      <group name="RegressionTest">
+        <method signature="ContactTest.createConatctWithOrgTest()[pri:0, instance:com.comcast.conatcttest.ContactTest@57829d67]" name="createConatctWithOrgTest" class="com.comcast.conatcttest.ContactTest"/>
+        <method signature="ContactTest.deleteCoantctTest()[pri:0, instance:com.comcast.conatcttest.ContactTest@57829d67]" name="deleteCoantctTest" class="com.comcast.conatcttest.ContactTest"/>
+        <method signature="OrgTest.createOrgWithIndutriesTest()[pri:0, instance:com.comcast.orgtest.copy.OrgTest@19dfb72a]" name="createOrgWithIndutriesTest" class="com.comcast.orgtest.copy.OrgTest"/>
+        <method signature="OrgTest.deleteOrgTest()[pri:0, instance:com.comcast.orgtest.copy.OrgTest@19dfb72a]" name="deleteOrgTest" class="com.comcast.orgtest.copy.OrgTest"/>
+      </group> <!-- RegressionTest -->
+    </groups>
+    <test name="Command line test" duration-ms="68" started-at="2021-09-22T10:11:02Z" finished-at="2021-09-22T10:11:02Z">
+      <class name="com.comcast.conatcttest.ContactTest">
+        <test-method status="PASS" signature="createConatctTest()[pri:0, instance:com.comcast.conatcttest.ContactTest@57829d67]" name="createConatctTest" duration-ms="11" started-at="2021-09-22T10:11:02Z" finished-at="2021-09-22T10:11:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createConatctTest -->
+        <test-method status="PASS" signature="createConatctWithOrgTest()[pri:0, instance:com.comcast.conatcttest.ContactTest@57829d67]" name="createConatctWithOrgTest" duration-ms="1" started-at="2021-09-22T10:11:02Z" finished-at="2021-09-22T10:11:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createConatctWithOrgTest -->
+        <test-method status="PASS" signature="deleteCoantctTest()[pri:0, instance:com.comcast.conatcttest.ContactTest@57829d67]" name="deleteCoantctTest" duration-ms="0" started-at="2021-09-22T10:11:02Z" finished-at="2021-09-22T10:11:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCoantctTest -->
+      </class> <!-- com.comcast.conatcttest.ContactTest -->
+      <class name="com.comcast.orgtest.copy.OrgTest">
+        <test-method status="PASS" signature="createOrgTest()[pri:0, instance:com.comcast.orgtest.copy.OrgTest@19dfb72a]" name="createOrgTest" duration-ms="1" started-at="2021-09-22T10:11:02Z" finished-at="2021-09-22T10:11:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgTest -->
+        <test-method status="PASS" signature="createOrgWithIndutriesTest()[pri:0, instance:com.comcast.orgtest.copy.OrgTest@19dfb72a]" name="createOrgWithIndutriesTest" duration-ms="0" started-at="2021-09-22T10:11:02Z" finished-at="2021-09-22T10:11:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgWithIndutriesTest -->
+        <test-method status="PASS" signature="deleteOrgTest()[pri:0, instance:com.comcast.orgtest.copy.OrgTest@19dfb72a]" name="deleteOrgTest" duration-ms="0" started-at="2021-09-22T10:11:02Z" finished-at="2021-09-22T10:11:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteOrgTest -->
+      </class> <!-- com.comcast.orgtest.copy.OrgTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
